@@ -16,6 +16,7 @@ class ViewController: UITableViewController {
         title = "Store viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
         
+       
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
@@ -45,6 +46,7 @@ class ViewController: UITableViewController {
             navigationController?.pushViewController(vc, animated: true)
         }
     }
+    
 
 }
 

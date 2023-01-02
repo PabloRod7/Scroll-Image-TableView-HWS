@@ -1,6 +1,6 @@
 
 
-# Project 1 - Storm Viewer
+# Storm Viewer Haking with Swift
 
 https://www.hackingwithswift.com/100/16
 
